@@ -3,11 +3,11 @@ num1 = params[:num1]
 num2 = params[:num2]
 %>
 <% if operation == "add" %>
-  <%= %>
+  <%= num1 + num2 %>
 <% elsif operation == "subtract" %>
-  <%= %>
+  <%= num1 - num2 %>
 <% elsif operation == "multiply" %>
-  <%= %>
+  <%= num1 * num2 %>
 <% elsif "divide" %>
-
+  <%= num1 / num2 %>
 <% end %>
