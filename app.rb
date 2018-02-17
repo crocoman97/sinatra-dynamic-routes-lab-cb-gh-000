@@ -18,7 +18,9 @@ class App < Sinatra::Base
     erb :sayfive
   end
   
-  get 
+  get '/:operation/:number1/:number2' do 
+    erb 'operation'
+  end
 
 end
 
